@@ -1,0 +1,16 @@
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.project
+.pgpass
+.env
+.venv
+.vscode
+*cache/
+config/
+output/datasets/
+output/tables/
+raw_data/
