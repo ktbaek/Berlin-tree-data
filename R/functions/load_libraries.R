@@ -1,0 +1,7 @@
+library(tidyverse)
+library(magrittr)
+library(jsonlite)
+library(stringi)
+library(testthat)
+library(rprojroot)
+library(sf)

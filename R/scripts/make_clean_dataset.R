@@ -4,15 +4,15 @@ suppressWarnings({
 dataset_year = 2026L
 
 # source functions
-rm(set_color_df) # during development 
-r_files <- list.files("../../treemap_cph/tidytrees/2025/R/functions", pattern = "\\.R$", full.names = TRUE)
+#rm(set_color_df) # during development 
+r_files <- list.files("R/functions", pattern = "\\.R$", full.names = TRUE)
 invisible(lapply(r_files, source))
 
 # read raw data
-street_trees_df <- read_csv("raw_dataset/2026/street_trees.csv")
+street_trees_df <- read_csv("raw_data/2026/street_trees.csv")
 
 # load rules
-dir <- "2025/rules"
+dir <- "rules"
 paths <- list.files(dir, pattern = "\\.csv$", full.names = TRUE)
 rules <- set_names(paths, tools::file_path_sans_ext(basename(paths))) |>
   map(read_rules)
@@ -21,8 +21,8 @@ rules <- set_names(paths, tools::file_path_sans_ext(basename(paths))) |>
 rep <- tt_make_reporter()
 
 # Cleaning workflow
-df <- trees_df |>
-  normalize_year(upper_bound = dataset_year, report = rep) |>
+df <- street_trees_df |>
+  #normalize_year(upper_bound = dataset_year, report = rep) |>
   
   # Spelling, casing and normalization of scientific names
   apply_regex_rules(rules = rules$markers, report = rep) |> # normalize hybrid markers, cultivar markers
@@ -39,14 +39,14 @@ df <- trees_df |>
 
 # get report
 changelog <- rep$get()
-changelog |> write_csv("2025/output/changelog/changelog.csv")
+#changelog |> write_csv("2025/output/changelog/changelog.csv")
 
 # summarize report
-changelog_summary <- changelog |>
-  group_by(code, message) |>
-  summarize(n = n(), .groups = "drop") |>
-  arrange(desc(n)) %T>%
-  write_csv("2025/output/changelog/changelog_summary.csv")
+# changelog_summary <- changelog |>
+#   group_by(code, message) |>
+#   summarize(n = n(), .groups = "drop") |>
+#   arrange(desc(n)) %T>%
+#   write_csv("2025/output/changelog/changelog_summary.csv")
 
 changelog_unique <- changelog |>
   group_by(code, value_from, value_to, message) |>
@@ -54,7 +54,7 @@ changelog_unique <- changelog |>
   select(code, value_from, value_to, message, n) |>
   distinct() |> 
   arrange(code, message, value_from) %T>%
-  write_csv("2025/output/changelog/changelog_unique.csv")
+# write_csv("2025/output/changelog/changelog_unique.csv")
 
 cli::cli_alert_success(paste0(cli::col_cyan(nrow(changelog)), " total changes. ", cli::col_cyan(nrow(changelog_unique)), " total unique changes."))
 
