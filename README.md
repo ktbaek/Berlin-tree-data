@@ -10,8 +10,8 @@ df <- sf::st_read("raw_data/strassenbaeume.gpkg")
 df |> 
     mutate(
         wgs84 = sf::st_transform(geom, 4326),
-        lon = st_coordinates(wgs84)[, 1],
-        lat = st_coordinates(wgs84)[, 2]
+        lon = sf::st_coordinates(wgs84)[, 1],
+        lat = sf::st_coordinates(wgs84)[, 2]
         ) |>
     select(-wgs84)
 ```

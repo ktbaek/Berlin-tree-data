@@ -1,0 +1,13 @@
+code,message,n
+APPLIED_REGEX_RULE,normalize unknown species abbr.,60063
+APPLIED_REGEX_RULE,add hybrid marker,53440
+APPLIED_REGEX_RULE,latin normalization,36019
+APPLIED_REGEX_RULE,normalize hybrid marker,10846
+WRONG_CASE_LATIN,fix casing latin name,6399
+APPLIED_REGEX_RULE,insert species for cultivars,1516
+DUPLICATE_LOCATION,duplicate location flag added,945
+APPLIED_REGEX_RULE,normalize cultivar style,225
+APPLIED_REGEX_RULE,add diacritic,108
+APPLIED_REGEX_RULE,fix species name,59
+APPLIED_REGEX_RULE,latin spelling fix,29
+APPLIED_REGEX_RULE,add variety marker,2

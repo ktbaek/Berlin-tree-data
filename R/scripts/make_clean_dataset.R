@@ -1,15 +1,20 @@
 # Cleaning and QC of Copenhagen Municipality's tree dataset ---------------
 suppressWarnings({
-# set constants
-dataset_year = 2026L
 
 # source functions
 #rm(set_color_df) # during development 
 r_files <- list.files("R/functions", pattern = "\\.R$", full.names = TRUE)
 invisible(lapply(r_files, source))
 
-# read raw data
+#read raw data
 street_trees_df <- read_csv("raw_data/2026/street_trees.csv")
+park_trees_df <- read_csv("raw_data/2026/park_trees.csv")
+
+trees_df <-
+  bind_rows(
+    street_trees_df |> mutate(space_type = "Street"),
+    park_trees_df |> mutate(space_type = "Park")
+  )
 
 # load rules
 dir <- "rules"
@@ -21,32 +26,30 @@ rules <- set_names(paths, tools::file_path_sans_ext(basename(paths))) |>
 rep <- tt_make_reporter()
 
 # Cleaning workflow
-df <- street_trees_df |>
-  #normalize_year(upper_bound = dataset_year, report = rep) |>
-  
+df <- trees_df |>
   # Spelling, casing and normalization of scientific names
   apply_regex_rules(rules = rules$markers, report = rep) |> # normalize hybrid markers, cultivar markers
-  normalize_case_latin(report = rep) |> 
   apply_regex_rules(rules = rules$latin_regex, report = rep) |> 
   apply_regex_rules(rules = rules$latin_regex_malus, report = rep) |> 
+  normalize_case_latin(report = rep) |> 
   
   # whitespace QC
   mutate(across(where(is.character), str_squish)) |> 
   
-  # flag trees with duplicate location
+  #flag trees with duplicate location 
   flag_dupl_locations(report = rep) |> 
-  arrange(id)
+  arrange(gisid)
 
 # get report
 changelog <- rep$get()
-#changelog |> write_csv("2025/output/changelog/changelog.csv")
+changelog |> write_csv("output/changelog/changelog.csv")
 
 # summarize report
-# changelog_summary <- changelog |>
-#   group_by(code, message) |>
-#   summarize(n = n(), .groups = "drop") |>
-#   arrange(desc(n)) %T>%
-#   write_csv("2025/output/changelog/changelog_summary.csv")
+changelog_summary <- changelog |>
+  group_by(code, message) |>
+  summarize(n = n(), .groups = "drop") |>
+  arrange(desc(n))  %T>%
+  write_csv("output/changelog/changelog_summary.csv")
 
 changelog_unique <- changelog |>
   group_by(code, value_from, value_to, message) |>
@@ -54,12 +57,11 @@ changelog_unique <- changelog |>
   select(code, value_from, value_to, message, n) |>
   distinct() |> 
   arrange(code, message, value_from) %T>%
-# write_csv("2025/output/changelog/changelog_unique.csv")
+ write_csv("output/changelog/changelog_unique.csv")
 
 cli::cli_alert_success(paste0(cli::col_cyan(nrow(changelog)), " total changes. ", cli::col_cyan(nrow(changelog_unique)), " total unique changes."))
 
 # write cleaned data frame
- df |> write_csv('2025/output/datasets/kk_trees_clean.csv')
- df |> write_rds('2025/output/datasets/kk_trees_clean.rds')
- df |> write_json('2025/output/datasets/kk_trees_clean.json', digits = 6, pretty = TRUE)
+ df |> write_csv('output/datasets/bln_trees_clean.csv')
+ #df |> write_rds('output/datasets/bln_trees_clean.rds')
  })

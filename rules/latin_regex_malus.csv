@@ -1,23 +1,27 @@
 column;pattern;replacement;note;priority
-art_bot;Malus floribunda;Malus hybr. floribunda;add hybrid marker;NA
-art_bot;Malus sieboldii  'Browers beauty';Malus sieboldii 'Brouwers beauty';cultivar spelling fix;NA
-art_bot;Malus hybr. 'Akso';Malus baccata 'Akso';fix species name;NA
-art_bot;Malus hybr. 'James Greive';Malus domestica 'James Grieve';fix species name;NA
-art_bot;Malus hybr. 'Robusta';Malus hybr. robusta;cultivar to species;NA
-art_bot;Malus hybr. 'Street Parade';Malus baccata 'Street Parade';fix species name;NA
-art_bot;Malus 'Alice Balsgaard';Malus domestica 'Alice Balsgaard';insert species for cultivars;NA
-art_bot;Malus 'Angold';Malus domestica 'Angold';insert species for cultivars;NA
-art_bot;Malus 'Bramley's Seedling';Malus domestica 'Bramley's Seedling';insert species for cultivars;NA
-art_bot;Malus 'Cox Orange';Malus domestica 'Cox Orange';insert species for cultivars;NA
-art_bot;Malus 'Cox Queen';Malus domestica 'Cox Queen';insert species for cultivars;NA
-art_bot;Malus 'Golden Hornet';Malus hybr. 'Golden Hornet';insert species for cultivars;NA
-art_bot;Malus 'Holsteiner Cox';Malus domestica 'Holsteiner Cox';insert species for cultivars;NA
-art_bot;Malus 'Neville Copeman';Malus hybr. 'Neville Copeman';insert species for cultivars;NA
-art_bot;Malus 'Rød ananas';Malus domestica 'Rød ananas';insert species for cultivars;NA
-art_bot;Malus 'Säftaholm';Malus domestica 'Säftaholm';insert species for cultivars;NA
-art_bot;Malus 'Topaz';Malus domestica 'Topaz';insert species for cultivars;NA
-art_bot;Malus 'Åkerø Hassel';Malus domestica 'Åkerø Hassel';insert species for cultivars;NA
-art_bot;Malus Signe Tillisch;Malus domestica 'Signe Tillisch';insert species for cultivars;NA
-art_bot;Malus discovery;Malus domestica 'Discovery';insert species for cultivars;NA
-art_bot;Malus rubinola;Malus domestica 'Rubinola';insert species for cultivars;NA
-art_bot;Malus hybrid Hyslop;Malus hybr. 'Hyslop';normalize hybrid marker;NA
+art_bot;Malus floribunda;Malus hybr. floribunda;add hybrid marker;90
+art_bot;Malus sieboldii  'Browers beauty';Malus sieboldii 'Brouwers beauty';cultivar spelling fix;90
+art_bot;Malus hybr. 'Akso';Malus baccata 'Akso';fix species name;90
+art_bot;Malus hybr. 'James Greive';Malus domestica 'James Grieve';fix species name;90
+art_bot;Malus hybr. 'Robusta';Malus hybr. robusta;cultivar to species;90
+art_bot;Malus 'Street Parade';Malus baccata 'Street Parade';fix species name;90
+art_bot;Malus 'Alice Balsgaard';Malus domestica 'Alice Balsgaard';insert species for cultivars;90
+art_bot;Malus 'Angold';Malus domestica 'Angold';insert species for cultivars;90
+art_bot;Malus 'Bramley's Seedling';Malus domestica 'Bramley's Seedling';insert species for cultivars;90
+art_bot;Malus 'Cox Orange';Malus domestica 'Cox Orange';insert species for cultivars;90
+art_bot;Malus 'Cox Queen';Malus domestica 'Cox Queen';insert species for cultivars;90
+art_bot;Malus 'Golden Hornet';Malus hybr. 'Golden Hornet';insert species for cultivars;90
+art_bot;Malus 'Holsteiner Cox';Malus domestica 'Holsteiner Cox';insert species for cultivars;90
+art_bot;Malus 'Neville Copeman';Malus hybr. 'Neville Copeman';insert species for cultivars;90
+art_bot;Malus 'Rød ananas';Malus domestica 'Rød ananas';insert species for cultivars;90
+art_bot;Malus 'Säftaholm';Malus domestica 'Säftaholm';insert species for cultivars;90
+art_bot;Malus 'Topaz';Malus domestica 'Topaz';insert species for cultivars;90
+art_bot;Malus 'Åkerø Hassel';Malus domestica 'Åkerø Hassel';insert species for cultivars;90
+art_bot;Malus Signe Tillisch;Malus domestica 'Signe Tillisch';insert species for cultivars;90
+art_bot;Malus discovery;Malus domestica 'Discovery';insert species for cultivars;90
+art_bot;Malus rubinola;Malus domestica 'Rubinola';insert species for cultivars;90
+art_bot;Malus hybrid Hyslop;Malus hybr. 'Hyslop';normalize hybrid marker;90
+art_bot;Malus 'Gerlinde';Malus domestica 'Gerlinde';insert species for cultivars;90
+art_bot;Malus 'Eleyi'  ;Malus hybr. purpurea 'Eleyi'  ;insert species for cultivars;90
+art_bot;^Malus\s+toringo\s+\(M\. Sieboldii\)$;Malus sieboldii;fix species name;90
+art_bot;^Malus\s+';Malus hybr. ';insert species for cultivars;80

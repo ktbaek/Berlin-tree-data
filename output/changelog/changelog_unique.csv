@@ -1,0 +1,654 @@
+code,value_from,value_to,message,n
+APPLIED_REGEX_RULE,Hippophae,Hippophaë,add diacritic,54
+APPLIED_REGEX_RULE,Hippophae rhamnoides,Hippophaë rhamnoides,add diacritic,54
+APPLIED_REGEX_RULE,Acer 'Norwegian Sunset',Acer hybr. 'Norwegian Sunset',add hybrid marker,10
+APPLIED_REGEX_RULE,Acer freemanii 'Armstrong',Acer hybr. freemanii 'Armstrong',add hybrid marker,14
+APPLIED_REGEX_RULE,Acer freemanii 'Autumn Blaze',Acer hybr. freemanii 'Autumn Blaze',add hybrid marker,166
+APPLIED_REGEX_RULE,Aesculus carnea,Aesculus hybr. carnea,add hybrid marker,5018
+APPLIED_REGEX_RULE,Aesculus carnea 'Briotii',Aesculus hybr. carnea 'Briotii',add hybrid marker,587
+APPLIED_REGEX_RULE,Alnus spaethii,Alnus hybr. spaethii,add hybrid marker,1176
+APPLIED_REGEX_RULE,Amelanchier lamarckii,Amelanchier hybr. lamarckii,add hybrid marker,230
+APPLIED_REGEX_RULE,Amelanchier lamarckii 'Ballerina',Amelanchier hybr. lamarckii 'Ballerina',add hybrid marker,29
+APPLIED_REGEX_RULE,Laburnum watereri 'Fastigiata',Laburnum hybr. watereri 'Fastigiata',add hybrid marker,2
+APPLIED_REGEX_RULE,Magnolia 'Galaxy',Magnolia hybr. 'Galaxy' ,add hybrid marker,2
+APPLIED_REGEX_RULE,Magnolia 'Susan',Magnolia hybr. 'Susan',add hybrid marker,1
+APPLIED_REGEX_RULE,Magnolia soulangeana,Magnolia hybr. soulangeana,add hybrid marker,46
+APPLIED_REGEX_RULE,Malus floribunda,Malus hybr. floribunda,add hybrid marker,481
+APPLIED_REGEX_RULE,Malus floribunda 'Pendula',Malus hybr. floribunda 'Pendula',add hybrid marker,5
+APPLIED_REGEX_RULE,Paulownia 'Shan Tong',Paulownia hybr. 'Shan Tong' ,add hybrid marker,4
+APPLIED_REGEX_RULE,Platanus acerifolia,Platanus hybr. acerifolia,add hybrid marker,28680
+APPLIED_REGEX_RULE,Platanus acerifolia 'Malburg',Platanus hybr. acerifolia 'Malburg',add hybrid marker,15
+APPLIED_REGEX_RULE,Platanus acerifolia 'Pyramidalis',Platanus hybr. acerifolia 'Pyramidalis',add hybrid marker,255
+APPLIED_REGEX_RULE,Platanus acerifolia 'Vallis Clausa',Platanus hybr. acerifolia 'Vallis Clausa',add hybrid marker,17
+APPLIED_REGEX_RULE,Populus canadensis,Populus hybr. canadensis,add hybrid marker,782
+APPLIED_REGEX_RULE,Populus canescens,Populus hybr. canescens,add hybrid marker,1683
+APPLIED_REGEX_RULE,Populus gileadensis,Populus hybr. gileadensis,add hybrid marker,30
+APPLIED_REGEX_RULE,Prunus hillieri 'Spire',Prunus hybr. hillieri 'Spire',add hybrid marker,69
+APPLIED_REGEX_RULE,Prunus yedoensis,Prunus hybr. yedoensis,add hybrid marker,110
+APPLIED_REGEX_RULE,Quercus turneri 'Pseudoturneri',Quercus hybr. turneri 'Pseudoturneri',add hybrid marker,23
+APPLIED_REGEX_RULE,Tilia euchlora,Tilia hybr. euchlora,add hybrid marker,13633
+APPLIED_REGEX_RULE,Tilia euchlora 'Szent István',Tilia hybr. euchlora 'Szent István',add hybrid marker,4
+APPLIED_REGEX_RULE,Ulmus 'Clusius',Ulmus hybr. 'Clusius',add hybrid marker,35
+APPLIED_REGEX_RULE,Ulmus 'Columella' ,Ulmus hybr. 'Columella' ,add hybrid marker,146
+APPLIED_REGEX_RULE,Ulmus 'Commelin',Ulmus hybr. 'Commelin',add hybrid marker,87
+APPLIED_REGEX_RULE,Ulmus 'Dampieri',Ulmus hybr. 'Dampieri',add hybrid marker,4
+APPLIED_REGEX_RULE,Ulmus 'Rebella',Ulmus hybr. 'Rebella',add hybrid marker,96
+APPLIED_REGEX_RULE,Fagus sylvatica Suentelensis,Fagus sylvatica var. suentelensis,add variety marker,2
+APPLIED_REGEX_RULE,Malus 'Street Parade',Malus baccata 'Street Parade',fix species name,6
+APPLIED_REGEX_RULE,Malus toringo (M. Sieboldii),Malus sieboldii,fix species name,53
+APPLIED_REGEX_RULE,Laburnum 'Vossii',Laburnum hybr. watereri 'Vossii',insert species for cultivars,4
+APPLIED_REGEX_RULE,Malus 'Adams',Malus hybr. 'Adams',insert species for cultivars,48
+APPLIED_REGEX_RULE,Malus 'Aldenhamensis',Malus hybr. 'Aldenhamensis',insert species for cultivars,20
+APPLIED_REGEX_RULE,Malus 'Butterball',Malus hybr. 'Butterball',insert species for cultivars,23
+APPLIED_REGEX_RULE,Malus 'Charlottae',Malus hybr. 'Charlottae',insert species for cultivars,15
+APPLIED_REGEX_RULE,Malus 'Eleyi',Malus hybr. 'Eleyi',insert species for cultivars,45
+APPLIED_REGEX_RULE,Malus 'Evereste',Malus hybr. 'Evereste',insert species for cultivars,91
+APPLIED_REGEX_RULE,Malus 'Gerlinde',Malus domestica 'Gerlinde',insert species for cultivars,1
+APPLIED_REGEX_RULE,Malus 'Golden Hornet',Malus hybr. 'Golden Hornet',insert species for cultivars,13
+APPLIED_REGEX_RULE,Malus 'Hillieri',Malus hybr. 'Hillieri',insert species for cultivars,54
+APPLIED_REGEX_RULE,Malus 'Hopa',Malus hybr. 'Hopa',insert species for cultivars,1
+APPLIED_REGEX_RULE,Malus 'John Downie',Malus hybr. 'John Downie',insert species for cultivars,9
+APPLIED_REGEX_RULE,Malus 'Liset',Malus hybr. 'Liset',insert species for cultivars,58
+APPLIED_REGEX_RULE,Malus 'Professor Sprenger',Malus hybr. 'Professor Sprenger',insert species for cultivars,22
+APPLIED_REGEX_RULE,Malus 'Profusion',Malus hybr. 'Profusion',insert species for cultivars,14
+APPLIED_REGEX_RULE,Malus 'Red Sentinel',Malus hybr. 'Red Sentinel',insert species for cultivars,149
+APPLIED_REGEX_RULE,Malus 'Royalty',Malus hybr. 'Royalty',insert species for cultivars,11
+APPLIED_REGEX_RULE,Malus 'Rudolph',Malus hybr. 'Rudolph',insert species for cultivars,26
+APPLIED_REGEX_RULE,Malus 'Sugartime',Malus hybr. 'Sugartime',insert species for cultivars,1
+APPLIED_REGEX_RULE,Malus 'Van Eseltine',Malus hybr. 'Van Eseltine',insert species for cultivars,92
+APPLIED_REGEX_RULE,Prunus 'Trailblazer',Prunus cerasifera 'Trailblazer',insert species for cultivars,27
+APPLIED_REGEX_RULE,Salix 'Tortuosa',Salix babylonica 'Tortuosa',insert species for cultivars,758
+APPLIED_REGEX_RULE,Sorbus 'Dodong',Sorbus commixta 'Dodong',insert species for cultivars,34
+APPLIED_REGEX_RULE,Acer davidii subsp. Davidii,Acer davidii ssp. Davidii,latin normalization,2
+APPLIED_REGEX_RULE,Acer pectinatum Forrestii,Acer pectinatum ssp. forrestii,latin normalization,1
+APPLIED_REGEX_RULE,Acer platanoides 'Eurostar' (R),Acer platanoides 'Eurostar' ,latin normalization,87
+APPLIED_REGEX_RULE,Fraxinus americana 'Autumn Purple' (R),Fraxinus americana 'Autumn Purple' ,latin normalization,72
+APPLIED_REGEX_RULE,Ginkgo biloba 'Fastigiata Blagon' (R),Ginkgo biloba 'Fastigiata Blagon' ,latin normalization,3
+APPLIED_REGEX_RULE,"Ginkgo biloba, Ginkgo",Ginkgo biloba,latin normalization,1
+APPLIED_REGEX_RULE,Hamamelis in Sorten,Hamamelis sp.,latin normalization,2
+APPLIED_REGEX_RULE,Liquidambar styraciflua 'Paarl' (R),Liquidambar styraciflua 'Paarl' ,latin normalization,137
+APPLIED_REGEX_RULE,Magnolia grandiflora 'Alta' (R),Magnolia grandiflora 'Alta' ,latin normalization,2
+APPLIED_REGEX_RULE,Malus Hybriden in Sorten,Malus hybr.,latin normalization,329
+APPLIED_REGEX_RULE,Perovskia atriplicifolia 'Little Spire' (S),Perovskia atriplicifolia 'Little Spire' ,latin normalization,1
+APPLIED_REGEX_RULE,Pinus nigra Fastigiata,Pinus nigra 'Fastigiata',latin normalization,1
+APPLIED_REGEX_RULE,Platanus hybr. hispanica,Platanus hybr. acerifolia,latin normalization,19
+APPLIED_REGEX_RULE,Platanus hybr. hispanica 'Pyramidalis',Platanus hybr. acerifolia 'Pyramidalis',latin normalization,5
+APPLIED_REGEX_RULE,Platanus hybr. hispanica 'Tremonia',Platanus hybr. acerifolia 'Tremonia',latin normalization,458
+APPLIED_REGEX_RULE,Populus hybr. canadensis Hybride,Populus hybr. canadensis,latin normalization,3424
+APPLIED_REGEX_RULE,Salix balsamifera Mas,Salix balsamifera 'Mas',latin normalization,1
+APPLIED_REGEX_RULE,Salix caprea Mas,Salix caprea 'Mas',latin normalization,61
+APPLIED_REGEX_RULE,"Sambucus spec., Holunder",Sambucus nigra,latin normalization,2
+APPLIED_REGEX_RULE,Thuja plicata Excelsa,Thuja plicata 'Excelsa',latin normalization,13
+APPLIED_REGEX_RULE,Tilia intermedia,Tilia hybr. europaea,latin normalization,18371
+APPLIED_REGEX_RULE,Tilia intermedia 'Pallida',Tilia hybr. europaea 'Pallida',latin normalization,12840
+APPLIED_REGEX_RULE,Tilia pallida 'Ruvo',Tilia hybr. europaea 'Pallida',latin normalization,41
+APPLIED_REGEX_RULE,Ulmus 'Columella' (R),Ulmus 'Columella' ,latin normalization,146
+APPLIED_REGEX_RULE,Amelanchier lamarkii 'Ballerina',Amelanchier lamarckii 'Ballerina',latin spelling fix,29
+APPLIED_REGEX_RULE,Acer campestre ''Huibers Elegant',Acer campestre 'Huibers Elegant',normalize cultivar style,225
+APPLIED_REGEX_RULE,Acer x neglectum 'Annae',Acer hybr. neglectum 'Annae',normalize hybrid marker,5
+APPLIED_REGEX_RULE,Catalpa x erubescens 'Purpurea',Catalpa hybr. erubescens 'Purpurea',normalize hybrid marker,1
+APPLIED_REGEX_RULE,Crataegus x lavallei 'Carrierei',Crataegus hybr. lavallei 'Carrierei',normalize hybrid marker,1195
+APPLIED_REGEX_RULE,Crataegus x macrocarpa,Crataegus hybr. macrocarpa,normalize hybrid marker,23
+APPLIED_REGEX_RULE,Ilex x altaclerensis 'Belgica',Ilex hybr. altaclerensis 'Belgica',normalize hybrid marker,1
+APPLIED_REGEX_RULE,Malus x Purpurea,Malus hybr. Purpurea,normalize hybrid marker,37
+APPLIED_REGEX_RULE,Platanus x hispanica,Platanus hybr. hispanica,normalize hybrid marker,19
+APPLIED_REGEX_RULE,Platanus x hispanica 'Pyramidalis',Platanus hybr. hispanica 'Pyramidalis',normalize hybrid marker,5
+APPLIED_REGEX_RULE,Platanus x hispanica 'Tremonia',Platanus hybr. hispanica 'Tremonia',normalize hybrid marker,458
+APPLIED_REGEX_RULE,Populus x canadensis 'Robusta',Populus hybr. canadensis 'Robusta',normalize hybrid marker,266
+APPLIED_REGEX_RULE,Populus x canadensis Hybride,Populus hybr. canadensis Hybride,normalize hybrid marker,3424
+APPLIED_REGEX_RULE,Prunus x schmittii,Prunus hybr. schmittii,normalize hybrid marker,208
+APPLIED_REGEX_RULE,Pyrus x canescens,Pyrus hybr. canescens,normalize hybrid marker,73
+APPLIED_REGEX_RULE,Quercus x tabajdiana,Quercus hybr. tabajdiana,normalize hybrid marker,6
+APPLIED_REGEX_RULE,Robinia × margaretta 'Casque Rouge',Robinia hybr. margaretta 'Casque Rouge',normalize hybrid marker,116
+APPLIED_REGEX_RULE,Tilia x europaea 'Konnings',Tilia hybr. europaea 'Konnings',normalize hybrid marker,78
+APPLIED_REGEX_RULE,Tilia x moltkei,Tilia hybr. moltkei,normalize hybrid marker,128
+APPLIED_REGEX_RULE,Ulmus Hybride 'Dodoens',Ulmus hybr. 'Dodoens',normalize hybrid marker,63
+APPLIED_REGEX_RULE,Ulmus Hybride 'Lobel',Ulmus hybr. 'Lobel',normalize hybrid marker,176
+APPLIED_REGEX_RULE,Ulmus Hybride 'Plantijn',Ulmus hybr. 'Plantijn',normalize hybrid marker,335
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'Fiorente',Ulmus hybr. 'Fiorente',normalize hybrid marker,248
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'New Horizon',Ulmus hybr. 'New Horizon',normalize hybrid marker,1753
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'Rebona',Ulmus hybr. 'Rebona',normalize hybrid marker,881
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'Regal',Ulmus hybr. 'Regal',normalize hybrid marker,976
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'Reverti',Ulmus hybr. 'Reverti',normalize hybrid marker,1
+APPLIED_REGEX_RULE,Ulmus Resista (R) 'Sapporo Autumn Gold',Ulmus hybr. 'Sapporo Autumn Gold',normalize hybrid marker,87
+APPLIED_REGEX_RULE,Ulmus x hollandica,Ulmus hybr. hollandica,normalize hybrid marker,97
+APPLIED_REGEX_RULE,Ulmus x hollandica 'Groeneveld',Ulmus hybr. hollandica 'Groeneveld',normalize hybrid marker,1
+APPLIED_REGEX_RULE,Ulmus x hollandica 'Vegeta',Ulmus hybr. hollandica 'Vegeta',normalize hybrid marker,163
+APPLIED_REGEX_RULE,Ulmus x hollandica 'Wredei',Ulmus hybr. hollandica 'Wredei',normalize hybrid marker,22
+APPLIED_REGEX_RULE,Abies spec.,Abies sp.,normalize unknown species abbr.,205
+APPLIED_REGEX_RULE,Acer spec.,Acer sp.,normalize unknown species abbr.,5951
+APPLIED_REGEX_RULE,Aesculus spec.,Aesculus sp.,normalize unknown species abbr.,950
+APPLIED_REGEX_RULE,Alnus spec.,Alnus sp.,normalize unknown species abbr.,584
+APPLIED_REGEX_RULE,Amelanchier spec.,Amelanchier sp.,normalize unknown species abbr.,35
+APPLIED_REGEX_RULE,Betula spec.,Betula sp.,normalize unknown species abbr.,1826
+APPLIED_REGEX_RULE,Buxus spec.,Buxus sp.,normalize unknown species abbr.,8
+APPLIED_REGEX_RULE,Caragana spec.,Caragana sp.,normalize unknown species abbr.,6
+APPLIED_REGEX_RULE,Carpinus spec.,Carpinus sp.,normalize unknown species abbr.,993
+APPLIED_REGEX_RULE,Carya spec.,Carya sp.,normalize unknown species abbr.,9
+APPLIED_REGEX_RULE,Catalpa spec.,Catalpa sp.,normalize unknown species abbr.,36
+APPLIED_REGEX_RULE,Cedrus spec.,Cedrus sp.,normalize unknown species abbr.,21
+APPLIED_REGEX_RULE,Chamaecyparis spec.,Chamaecyparis sp.,normalize unknown species abbr.,130
+APPLIED_REGEX_RULE,Cornus spec.,Cornus sp.,normalize unknown species abbr.,165
+APPLIED_REGEX_RULE,Corylus spec.,Corylus sp.,normalize unknown species abbr.,111
+APPLIED_REGEX_RULE,Crataegus spec.,Crataegus sp.,normalize unknown species abbr.,1383
+APPLIED_REGEX_RULE,Eucalyptus spec.,Eucalyptus sp.,normalize unknown species abbr.,1
+APPLIED_REGEX_RULE,Fagus spec.,Fagus sp.,normalize unknown species abbr.,1937
+APPLIED_REGEX_RULE,Fraxinus spec.,Fraxinus sp.,normalize unknown species abbr.,1335
+APPLIED_REGEX_RULE,Ilex spec.,Ilex sp.,normalize unknown species abbr.,56
+APPLIED_REGEX_RULE,Juglans spec.,Juglans sp.,normalize unknown species abbr.,185
+APPLIED_REGEX_RULE,Juniperus spec.,Juniperus sp.,normalize unknown species abbr.,52
+APPLIED_REGEX_RULE,Laburnum spec.,Laburnum sp.,normalize unknown species abbr.,22
+APPLIED_REGEX_RULE,Larix spec.,Larix sp.,normalize unknown species abbr.,223
+APPLIED_REGEX_RULE,Liquidambar spec.,Liquidambar sp.,normalize unknown species abbr.,161
+APPLIED_REGEX_RULE,Liriodendron spec.,Liriodendron sp.,normalize unknown species abbr.,12
+APPLIED_REGEX_RULE,Magnolia spec.,Magnolia sp.,normalize unknown species abbr.,87
+APPLIED_REGEX_RULE,Malus spec.,Malus sp.,normalize unknown species abbr.,2176
+APPLIED_REGEX_RULE,Morus spec.,Morus sp.,normalize unknown species abbr.,94
+APPLIED_REGEX_RULE,Picea spec.,Picea sp.,normalize unknown species abbr.,541
+APPLIED_REGEX_RULE,Pinus spec.,Pinus sp.,normalize unknown species abbr.,2908
+APPLIED_REGEX_RULE,Platanus spec.,Platanus sp.,normalize unknown species abbr.,346
+APPLIED_REGEX_RULE,Populus spec.,Populus sp.,normalize unknown species abbr.,3260
+APPLIED_REGEX_RULE,Prunus spec.,Prunus sp.,normalize unknown species abbr.,4796
+APPLIED_REGEX_RULE,Pterocarya spec.,Pterocarya sp.,normalize unknown species abbr.,16
+APPLIED_REGEX_RULE,Pyrus spec.,Pyrus sp.,normalize unknown species abbr.,440
+APPLIED_REGEX_RULE,Quercus spec.,Quercus sp.,normalize unknown species abbr.,6048
+APPLIED_REGEX_RULE,Rhamnus spec.,Rhamnus sp.,normalize unknown species abbr.,25
+APPLIED_REGEX_RULE,Robinia spec.,Robinia sp.,normalize unknown species abbr.,1932
+APPLIED_REGEX_RULE,Salix spec.,Salix sp.,normalize unknown species abbr.,2129
+APPLIED_REGEX_RULE,Sambucus spec.,Sambucus sp.,normalize unknown species abbr.,62
+APPLIED_REGEX_RULE,Sorbus spec.,Sorbus sp.,normalize unknown species abbr.,303
+APPLIED_REGEX_RULE,Syringa spec.,Syringa sp.,normalize unknown species abbr.,11
+APPLIED_REGEX_RULE,Tamarix spec.,Tamarix sp.,normalize unknown species abbr.,11
+APPLIED_REGEX_RULE,Taxus spec.,Taxus sp.,normalize unknown species abbr.,611
+APPLIED_REGEX_RULE,Thuja spec.,Thuja sp.,normalize unknown species abbr.,178
+APPLIED_REGEX_RULE,Tilia spec.,Tilia sp.,normalize unknown species abbr.,13740
+APPLIED_REGEX_RULE,Tsuga spec.,Tsuga sp.,normalize unknown species abbr.,8
+APPLIED_REGEX_RULE,Ulmus spec.,Ulmus sp.,normalize unknown species abbr.,3944
+DUPLICATE_LOCATION,"c(371823.513299899, 5812818.68669957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(371929.937699899, 5813192.87709957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(371937.7850999, 5812884.26389957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(371939.9246999, 5813192.72919957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(371984.0123999, 5812849.35359957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372393.545699901, 5813193.74499957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372396.951799901, 5813270.08319957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372463.282299902, 5813446.69019957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372468.831099902, 5813448.00269957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372499.569099902, 5813505.96099957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372510.176799901, 5813525.36759957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372511.010499902, 5813528.50959957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372511.366599902, 5813557.39259957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372513.093399902, 5813559.64769958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372546.974999902, 5813589.08039957)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372547.852099902, 5813589.87569958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372663.688799902, 5813804.79489958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372669.242799903, 5813815.42489958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372746.450499903, 5812242.22019958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372867.676599903, 5822880.76179958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372959.597999904, 5812231.28919958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372963.222699903, 5812232.59429958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372966.201399903, 5812234.26659958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372970.618299904, 5812236.21259958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372975.454799904, 5812237.35359958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372978.622099904, 5812239.32029958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(372982.312899904, 5812238.26319958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(373086.136899904, 5813006.87079958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(373575.203699906, 5812335.74139958)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(373656.933699906, 5822739.41979959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374144.569099908, 5809105.51279959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374204.099899908, 5821458.55569959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374507.862499909, 5817771.40649959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374512.41049991, 5821004.72009959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374765.368799911, 5821065.28999959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374777.17509991, 5820923.58419959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374781.52969991, 5821065.92739959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374788.39709991, 5821051.56609959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374831.80499991, 5813607.86399959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374849.324999911, 5820826.74569959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374852.837499911, 5820830.85089959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374855.573299911, 5820835.73389959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374858.959899911, 5820840.66579959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374861.55989991, 5820843.40249959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374862.45469991, 5820844.86439959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(374868.093199911, 5820865.53009959)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376163.080199915, 5824663.8363996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376258.997399915, 5821714.2446996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376379.246699916, 5815006.8647996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376444.204799916, 5815117.1811996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376470.861199916, 5815206.5069996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376481.885799916, 5815206.6132996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376483.918699916, 5815207.2436996)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376528.889499916, 5824750.60779961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376833.463999917, 5824276.31979961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376839.593899917, 5824286.05609961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376841.950099917, 5824283.58439961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376844.785899917, 5824284.15629961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376847.707399917, 5824259.31579961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376850.884999917, 5824289.47079961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376853.525299917, 5824288.68059961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376854.060299918, 5824229.88559961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376861.237499917, 5824274.81629961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376862.355399917, 5824293.60459961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376868.598399917, 5824226.18249961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376868.797299917, 5824154.23709961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376869.091299918, 5824266.57739961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376870.256699917, 5824215.20449961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376872.500999918, 5824261.60949961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376872.814599918, 5824233.55469961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376874.327099918, 5824232.79289961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376877.924899918, 5824284.44769961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376878.899199917, 5824215.87149961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376879.598799917, 5824240.46029961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376880.480599918, 5824283.49889961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376880.610599918, 5824229.41819961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376883.042199918, 5824217.13419961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376883.192999918, 5824232.73059961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376884.488499918, 5824282.59389961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376884.630699917, 5824248.21399961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376886.528299918, 5824214.71449961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376887.800299918, 5824289.26509961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376888.602199917, 5824245.86249961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376889.575999918, 5824255.72869961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376892.377099918, 5824232.49939961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376893.693999918, 5824211.15679961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376896.111899917, 5823985.54659961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376897.528999918, 5824251.42749961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376898.719299918, 5824250.67389961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376901.435799918, 5824227.28579961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376902.769299917, 5824248.23999961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376904.682499918, 5824247.38769961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376907.482999918, 5824256.16259961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376907.552499918, 5823980.34909961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376908.741099918, 5824587.11229961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376908.934099918, 5824265.77549961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376909.602499918, 5824244.28859961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376912.826999917, 5824263.50639961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376914.778399918, 5824241.74599961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376915.820599918, 5824251.12799961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376916.108099918, 5823976.98639961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376918.411399917, 5824257.97829961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376918.845599917, 5824249.60439961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376920.373199918, 5824259.05469961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376923.776699918, 5824256.55669961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(376995.745899918, 5824393.22089961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(377013.650899918, 5824408.31629961)",NA,duplicate location flag added,3
+DUPLICATE_LOCATION,"c(377100.413199919, 5824456.61409961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(377731.57039992, 5824277.73629962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(377741.27789992, 5824281.04719961)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(377973.856099922, 5820147.64199961)",NA,duplicate location flag added,5
+DUPLICATE_LOCATION,"c(378253.445999922, 5823348.71519962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378296.922099922, 5823343.02509962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378343.332399922, 5823205.00679962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378361.606999922, 5823232.47599962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378388.494699922, 5823291.62729962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378393.169599922, 5823288.51059962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378399.459899923, 5823271.93139962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378406.325899922, 5823282.70029962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378406.464199923, 5823252.36589962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378421.166099923, 5823281.58069962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378441.650999922, 5823211.80339962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378445.825099923, 5823261.08509962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378885.544799924, 5825997.51309962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378894.063399924, 5825980.28679962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378895.799299924, 5825984.95849962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(378896.867099924, 5825999.08239962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379088.769899925, 5827127.87559962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379089.564399924, 5827129.46909962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379090.139199925, 5827119.52449962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379090.953999925, 5827142.62919962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379093.134899925, 5827124.77619962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379094.452899925, 5827126.39989962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379097.263499925, 5827132.49969962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379103.126599925, 5827120.90539962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379103.265699925, 5827122.52549962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379104.516199925, 5827121.54269962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379107.075399925, 5827138.99059962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379107.961299924, 5827126.98649962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379113.883999924, 5827101.01209962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379114.858099925, 5827142.52469962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379117.098899924, 5827140.49469962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379117.811299925, 5827134.92849962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379119.511899925, 5827138.28619962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379119.559499925, 5827100.53959962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379121.382699925, 5827138.30899962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379124.593499925, 5827141.17039962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379125.833899925, 5827141.84809962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379128.380799925, 5827143.61159962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379129.243299925, 5827145.93319962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379129.726799925, 5827143.70289962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379132.361799925, 5827143.94489962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379139.145099925, 5827118.70809962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379332.776299926, 5828993.11759962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379534.158599926, 5827883.07769962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379552.285499926, 5830323.32559963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379579.664799927, 5830381.85689963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379595.747199926, 5827450.45109962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379598.065699926, 5828012.47349963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379669.214899926, 5824660.85879962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379894.722499927, 5827838.64979963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379949.254599927, 5827689.02479963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(379991.497999927, 5825720.15839962)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(380037.251199927, 5827892.34449963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(380129.965799928, 5827294.43209963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(380250.187099928, 5827264.34449963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(380304.877199928, 5827684.07899963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(381296.608599931, 5830093.08319963)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382404.448499934, 5822924.94649964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382575.678299935, 5828041.94489964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382599.764299935, 5828058.01649964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382607.512099935, 5828056.68929964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382607.579599935, 5828054.08079964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382616.821899935, 5828084.88129964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382628.371899935, 5828087.95409964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382630.336499935, 5828107.84129964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382630.537299935, 5828095.41239964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382632.220499935, 5828095.60299964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(382650.767699935, 5828010.75509964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384081.217299939, 5828014.16879964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384081.686499939, 5828011.00119964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384087.502499939, 5827997.86539964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384091.171799939, 5827988.89779965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384094.487999939, 5827981.06079964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384097.362899939, 5827974.63709965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384100.599799939, 5827967.55089965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384106.573299939, 5827951.70209964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384107.357999939, 5828024.28389965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384109.031199939, 5827960.68849965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384109.156299939, 5823163.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384109.907399939, 5827944.80139965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384111.010499939, 5827940.91579965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384112.049799939, 5828032.90879965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384112.069699939, 5827954.36649965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384112.874099939, 5827938.28229964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384114.126299938, 5828014.12629965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384115.624699938, 5828036.56979965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384116.006099939, 5827929.82339965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384116.480899939, 5827994.60839965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384119.954099939, 5828023.60589965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384120.126599939, 5827938.66869965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384121.441399939, 5828009.67369964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384121.791399939, 5828002.49119965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384121.961899939, 5828016.55729965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384123.201799939, 5827997.30399965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384125.303199939, 5827990.05889965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384125.480799939, 5827978.22299965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384125.612899939, 5827919.78649965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384126.007899939, 5827914.80429965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384126.179999939, 5827983.30929965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384129.155099939, 5827926.56139965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384129.208099939, 5827971.51829965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384130.119799939, 5827932.93569964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384131.019399939, 5827973.85299965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384132.392999939, 5827972.18039965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384135.941699939, 5827905.48719965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384137.294999939, 5827897.63669964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384137.459199939, 5827894.49589964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384140.663099939, 5827948.87749964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384143.248599939, 5827943.37509965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384146.616499939, 5827873.51299965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384147.114399939, 5827935.51139965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384151.013199939, 5827861.89669965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384151.344299939, 5827858.19609965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384156.335399939, 5827879.38489965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384156.689799939, 5827892.19419965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384159.813299939, 5827900.17379965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384160.363999939, 5827894.20019965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384161.037899939, 5827835.84579965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384164.199899939, 5827826.87119965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384167.094599939, 5827864.00689964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384169.675999939, 5827866.76759965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384169.706199939, 5827814.47869965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384172.030899939, 5827807.92929965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384174.342199939, 5827860.96549965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384176.516499939, 5827796.76099965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384178.240499939, 5827823.39349965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384180.194199939, 5827787.45519965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384186.204099939, 5827818.38089965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384186.868099939, 5827768.89689965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384188.305499939, 5827790.48859965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384189.225799939, 5827821.15719965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384192.766699939, 5827795.61409965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384193.248399939, 5827758.88049965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384194.514399939, 5827798.85879965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384195.813599939, 5827803.14249965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384197.223199939, 5827742.35279965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384199.85389994, 5827793.98039964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384200.482499939, 5827733.87459965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384202.567299939, 5827784.00069965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384204.033899939, 5827726.47679965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384205.14229994, 5827721.94899965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384211.75689994, 5827727.14419965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384213.491199939, 5827724.12479965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384215.987199939, 5827736.67839964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384217.61219994, 5827747.74839965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384220.444299939, 5827739.07779965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384224.569299939, 5827729.44579965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384228.215399939, 5827719.26089965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384232.086299939, 5827711.03879965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384264.573999939, 5827647.29619965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384267.445899939, 5827642.29649965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384271.711699939, 5827632.59479964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384284.59249994, 5827588.96729964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384293.019299939, 5827594.74099965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384298.960599939, 5827550.25679965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384300.53429994, 5827545.55139965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384306.00029994, 5827532.76989964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384307.398599939, 5827528.29269965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384311.215999939, 5827518.64439965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384316.455799939, 5827536.48199965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384322.900299939, 5827490.09989965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384323.108699939, 5827517.56379965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384324.96599994, 5827485.25039965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384326.719899939, 5827478.20389965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384356.778199939, 5827411.51639965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384358.35699994, 5827400.43289965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384361.43229994, 5827392.17919965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384363.31999994, 5827388.50079965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384364.75869994, 5827385.14989965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384365.973199939, 5827381.98529965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384368.159199939, 5827374.84119964)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384374.33549994, 5827373.19779965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384383.627399939, 5827356.30139965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384389.57219994, 5827347.46279965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384394.14319994, 5827337.81449965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384398.961699939, 5827330.19899965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384404.74769994, 5827321.25889965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384410.05589994, 5827311.90989965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384414.66719994, 5828100.09259965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384415.28229994, 5827303.76419965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384417.153199939, 5827284.80049965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384420.739299939, 5827260.19449965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384420.83909994, 5827296.50039965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384426.071499939, 5827288.66809965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384426.97619994, 5827245.14769965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384431.82109994, 5827268.37269965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384432.224999939, 5827255.31459965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384432.92999994, 5827263.78389965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384438.72299994, 5827253.88579965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384438.967799939, 5827268.98619965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384444.731599939, 5827261.61399965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384451.23139994, 5827241.43759965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384521.96539994, 5832239.89329965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384600.62099994, 5828131.92209965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384615.038699941, 5832140.28149965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(384758.674099941, 5830874.06489965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385336.458099942, 5824380.74889965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385607.445199943, 5825745.88419965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385613.758999942, 5826033.72589965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385625.088499942, 5826079.43399965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385651.509399943, 5826185.13559965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385702.803999943, 5826026.04399965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385702.856399943, 5825489.68559965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385719.624699943, 5825666.87389965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385722.402999943, 5825677.19329965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385760.457599943, 5826258.41509965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385769.864099943, 5825426.02729965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385801.463799943, 5825549.91999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385807.282499943, 5825683.23589965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385825.727799944, 5825437.64999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385846.693699943, 5826269.48329965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385852.217699943, 5826276.22069965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385890.886099943, 5826258.41569965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385893.337899943, 5826266.39549965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385928.060099944, 5828369.10129965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(385967.561199944, 5826239.93009965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386014.974399943, 5826595.12119965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386022.510899944, 5825948.81539965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386068.314899943, 5826115.62649965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386086.443099944, 5828231.83149965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386139.258499945, 5825304.92129965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386208.712799944, 5826199.87639965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386246.730899944, 5827348.47479965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386442.257899944, 5824917.86759965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386499.778399945, 5826179.86299966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386560.799299945, 5826174.60549965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386777.451699946, 5826152.33709966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386789.060999945, 5826479.80829966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386802.736999945, 5826481.79979966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386952.993399946, 5826367.02119965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386974.649199946, 5822703.34059966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(386993.580599946, 5822697.60469965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387002.346299946, 5826129.00579966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387016.114999946, 5826236.86679966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387019.793399946, 5826243.09829966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387023.882299946, 5826133.13149966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387062.142999946, 5826003.31049966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387083.547699946, 5826007.04769966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387099.280999947, 5826119.88589966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387105.669299946, 5826119.34429966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387136.695399946, 5826057.33109966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387138.229499947, 5826078.71529965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387138.856799947, 5826085.03989966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387144.644899946, 5826170.41249966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387153.440999946, 5826207.58029966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387206.390099947, 5828301.27259966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387236.265699947, 5825239.94539966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387324.577299947, 5828130.11129966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387605.999999947, 5815849.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387608.999999947, 5815929.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387646.852599947, 5826087.81959966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387646.999999947, 5817039.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387651.999999947, 5817149.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387722.999999948, 5817699.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387723.999999948, 5817399.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387724.999999948, 5817759.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387725.999999948, 5817429.99999965)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387750.485499948, 5827280.14749966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387835.761399948, 5826900.24509966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(387871.881599948, 5827003.00359966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388142.830799948, 5825809.45729966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388207.495799949, 5825160.68929966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388240.565699949, 5825032.37639966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388301.679899949, 5826651.17909966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388329.018699949, 5826719.91539966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388418.63899995, 5825854.62279966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388438.177599949, 5825093.89279966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388528.935499949, 5826077.29179966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388533.00879995, 5829514.72049966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388537.18129995, 5826075.84189966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388545.96699995, 5829528.96899966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388581.75039995, 5829479.23139966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388595.89409995, 5826231.51809966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388629.70069995, 5826096.43679966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388665.63709995, 5825983.93219966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388706.83169995, 5824922.94439966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(388787.96179995, 5825414.28799966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389002.708199951, 5826652.92369966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389108.199499951, 5825418.23699966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389176.141099951, 5825927.54579966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389198.293299951, 5825931.84869966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389211.082199951, 5826190.19209966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389225.984199951, 5825019.84259966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389253.999999951, 5813799.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389256.999999951, 5813669.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389270.999999951, 5813869.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389276.999999951, 5813949.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389291.999999951, 5814159.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389294.999999951, 5814199.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389298.593399951, 5825380.89409966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389300.999999951, 5814279.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389345.213299951, 5826271.13189966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389395.878899951, 5825849.50619966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389402.025299951, 5824546.50539966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389412.443399952, 5825408.75639966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389483.263199952, 5825690.03699967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389487.696899952, 5825189.57199966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389524.466199952, 5825324.20239966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389661.612899952, 5826124.51109966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389700.830399952, 5824650.38909966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389831.954599952, 5825515.73919966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389857.252299952, 5825944.15749967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(389989.786199953, 5825069.45489966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390004.558999953, 5824968.28169966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390012.954499953, 5825913.90539967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390070.124799953, 5826006.75049967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390078.379199953, 5825815.30869967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390297.999999953, 5815669.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390509.166999954, 5825414.43829967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390652.752399954, 5825748.36349967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390674.668399954, 5825727.55769967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390677.578699955, 5825735.19909967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390682.091899955, 5825729.67419967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390689.471699954, 5825716.11369967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390694.661699954, 5825713.01099967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390697.200399955, 5825718.44549967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390700.975799954, 5825715.75649967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390714.658799955, 5825754.00889967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390715.229699954, 5825696.53209967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390717.448599954, 5825699.42799967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390721.323699954, 5825761.22919967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390748.386099954, 5825690.40189967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390755.787899954, 5825684.37269967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390763.709899955, 5825721.25349967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390767.027599954, 5825719.65719967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390778.839799955, 5825677.74489967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390800.572399955, 5826062.65859967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390841.830399955, 5825723.90149967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390854.999999954, 5811699.99999966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390858.698899955, 5825760.92569967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390866.244099954, 5825768.69429967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390869.080999955, 5825753.30859967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390873.177199954, 5825778.34459967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390874.921099955, 5825760.26959967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390875.546899955, 5825777.35189967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390887.854599955, 5825792.56569967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390898.006399955, 5825778.58379967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390905.825499955, 5825739.29689967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390914.030499955, 5825774.54549967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390916.575699955, 5825782.84689967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390920.008699955, 5825781.42639967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(390921.370099955, 5825779.73939967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(392232.561299957, 5815627.47309966)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(393731.65839996, 5822251.01189967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(393779.99999996, 5811329.99999967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(394053.999999961, 5811269.99999967)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(398699.121899968, 5811868.80779968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(399152.419999969, 5810125.29999968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(400177.843899971, 5809441.39779968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(401055.446199972, 5821327.87619969)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(401107.508999972, 5821188.77479968)",NA,duplicate location flag added,3
+DUPLICATE_LOCATION,"c(401218.443999972, 5821326.33499969)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(401219.846099972, 5821322.96599968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(401273.344299972, 5821243.42099968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(401481.849999972, 5811349.87599968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(404386.009999976, 5811758.05999968)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(405672.104899978, 5821595.69689969)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(412058.773499985, 5811351.79889969)",NA,duplicate location flag added,2
+DUPLICATE_LOCATION,"c(412181.513699985, 5811367.78379969)",NA,duplicate location flag added,2
+WRONG_CASE_LATIN,Acer Cappadocicum 'Rubrum',Acer cappadocicum 'Rubrum',fix casing latin name,5
+WRONG_CASE_LATIN,Acer Pseudoplatanus 'Leopoldii',Acer pseudoplatanus 'Leopoldii',fix casing latin name,5
+WRONG_CASE_LATIN,Acer Rubrum 'Somerset',Acer rubrum 'Somerset',fix casing latin name,11
+WRONG_CASE_LATIN,Acer davidii ssp. Davidii,Acer davidii ssp. davidii,fix casing latin name,2
+WRONG_CASE_LATIN,Acer platanoides 'Farlake'S Green',Acer platanoides 'Farlake's Green',fix casing latin name,182
+WRONG_CASE_LATIN,Betula pendula var. Carelica,Betula pendula var. carelica,fix casing latin name,1
+WRONG_CASE_LATIN,Buxus sempervirens var. Arborescens,Buxus sempervirens var. arborescens,fix casing latin name,7
+WRONG_CASE_LATIN,Carya Laciniosa,Carya laciniosa,fix casing latin name,2
+WRONG_CASE_LATIN,Crataegus laevigata 'Paul´s Scarlet',Crataegus laevigata 'Paul's Scarlet',fix casing latin name,2512
+WRONG_CASE_LATIN,Fraxinus excelsior 'Westhof´s Glorie',Fraxinus excelsior 'Westhof's Glorie',fix casing latin name,409
+WRONG_CASE_LATIN,Gleditsia triacanthos f. Inermis,Gleditsia triacanthos f. inermis,fix casing latin name,474
+WRONG_CASE_LATIN,Malus domestica 'Freiherr Von Berlepsch',Malus domestica 'Freiherr von Berlepsch',fix casing latin name,2
+WRONG_CASE_LATIN,Malus hybr. Purpurea,Malus hybr. purpurea,fix casing latin name,37
+WRONG_CASE_LATIN,Pinus mugo ssp. Mughus,Pinus mugo ssp. mughus,fix casing latin name,6
+WRONG_CASE_LATIN,Pinus nigra ssp. Nigra,Pinus nigra ssp. nigra,fix casing latin name,2450
+WRONG_CASE_LATIN,Prunus Spinosa,Prunus spinosa,fix casing latin name,209
+WRONG_CASE_LATIN,Prunus domestica 'Mirabelle Von Nancy',Prunus domestica 'Mirabelle von Nancy',fix casing latin name,74
+WRONG_CASE_LATIN,Ptelea Trifoliata,Ptelea trifoliata,fix casing latin name,11

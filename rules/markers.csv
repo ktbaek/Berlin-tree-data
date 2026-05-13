@@ -1,3 +1,5 @@
 column,pattern,replacement,note,priority
 art_bot,^([A-Z][a-z]+)\s+[xX×]\s+(.*)$,\1 hybr. \2,normalize hybrid marker,90
 art_bot,"([""“”‘’])([^""“”‘’]+)\1",'\2',normalize cultivar style,80
+art_bot,spec.$,sp.,normalize unknown species abbr.,80
+art_bot,\s+'', ',normalize cultivar style,80

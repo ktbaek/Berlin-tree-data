@@ -1,74 +1,105 @@
-column;pattern;replacement;note;priority;;;
-art_bot;^Ginkgo\s+sp\.$;Ginkgo biloba;monotypic extant;70;;;
-art_bot;^Metasequoia\s+sp\.$;Metasequoia glyptostroboides;monotypic extant;70;;;
-art_bot;^Larix\s+leptolepis\b;Larix kaempferi;latin synonym -> accepted;60;;;
-art_bot;^Prunus\s+sachalinensis;Prunus sargentii;latin synonym;60;;;
-art_bot;^Acer\+cissifolia;Acer cissifolium;latin spelling fix;100;;;
-art_bot;^Acer\s+hycarnum;Acer hyrcanum;latin spelling fix;100;;;
-art_bot;^Almus\s+inceana\b;Alnus incana;latin spelling fix;100;;;
-art_bot;^Alnus\s+inokumea\b;Alnus inokumae;latin spelling fix;100;;;
-art_bot;^Amelachier\b;Amelanchier;latin spelling fix;100;;;
-art_bot;^Aronia\s+meloncarpia;Aronia melanocarpa;latin spelling fix;100;;;
-art_bot;^Celtis\s+sinesis;Celtis sinensis;latin spelling fix;100;;;
-art_bot;^Crytomeria\s+japonica\b;Cryptomeria japonica;latin spelling fix;60;;;
-art_bot;^Davidia\s+involucrate;Davidia involucrata;latin spelling fix;100;;;
-art_bot;^Davidia\s+involuncrata;Davidia involucrata;latin spelling fix;100;;;
-art_bot;^Eleagnus\s+angustifolia\b;Elaeagnus angustifolia;latin spelling fix;60;;;
-art_bot;^Forthergilla;Fothergilla;latin spelling fix;100;;;
-art_bot;^Hamamelis\s'Brevitala';Hamamelis 'Brevipetala';latin spelling fix;100;;;
-art_bot;^Hippophea;Hippophae;latin spelling fix;100;;;
-art_bot;^Macluara;Maclura;latin spelling fix;100;;;
-art_bot;^Malus\s+sieboldie;Malus sieboldii;latin spelling fix;100;;;
-art_bot;^Physocarbus;Physocarpus;latin spelling fix;100;;;
-art_bot;^Picea\s+punges;Picea pungens;latin spelling fix;100;;;
-art_bot;^Populus\s+simonii\s+'Fastgiata';Populus simonii 'Fastigiata';latin spelling fix;60;;;
-art_bot;^Prunus\s+ceracifera\b;Prunus cerasifera;latin spelling fix;100;;;
-art_bot;^Prunus\s+mackii\b;Prunus maackii;latin spelling fix;100;;;
-art_bot;^Pseudotsuga\s+menziezii;Pseudotsuga menziesii;latin spelling fix;100;;;
-art_bot;^Sambuscus;Sambucus;latin spelling fix;100;;;
-art_bot;^Tilia\s+plathyphyllos\b;Tilia platyphyllos;latin spelling fix;100;;;
-art_bot;^Zanthozylum;Zanthoxylum;latin spelling fix;100;;;
-art_bot;pensylvanica;pennsylvanica;latin spelling fix;100;;;
-art_bot;^Craetagus crus-galli var. Inermis;Crataegus crus-galli var. inermis;latin spelling fix;100;;;
-art_bot;^Ulmus\s+pumilla\s+arborea\b;Ulmus pumila var. arborea;latin rank word;60;;;
-art_bot;^Laburnocytisus;+Laburnocytisus;latin normalization;100;;;
-art_bot;^Aesculus\s+hippoc\.\s+;Aesculus hippocastanum ;latin expand abbrev.;90;;;
-art_bot;^Betula\s+albo\s+sinensis;Betula albosinensis;latin compound word;95;;;
-art_bot;^Magnolia\s*([xX×]|hybr\.)\s*Soulangiana\b;Magnolia hybr. soulangeana;latin case fix;60;;;
-art_bot;^Sophora\s+japonica\s*\(Styphnolobium japonica\)$;Styphnolobium japonica;latin accepted genus;60;;;
-art_bot;^Amelanchier\s+'Autumn Brilliance';Amelanchier hybr. grandiflora 'Autumn Brilliance';insert species for cultivars;60;;;
-art_bot;^Prunus\s+'Italiensk sveske';Prunus domestica 'Italiensk sveske';insert species for cultivars;60;;;
-art_bot;^Prunus\s+'Rivers Early Prolific';Prunus domestica 'Rivers Early Prolific';insert species for cultivars;60;;;
-art_bot;^Pyrus\s+'Grev Moltke';Pyrus communis 'Grev Moltke';insert species for cultivars;60;;;
-art_bot;^Ribes\s+'Jonkheer Van Tets';Ribes rubrum 'Jonkheer Van Tets';insert species for cultivars;60;;;
-art_bot;^Ribes\s+'Rondom';Ribes rubrum 'Rondom';insert species for cultivars;60;;;
-art_bot;^Ribes\s+'Rondom';Ribes rubrum 'Rondom';insert species for cultivars;60;;;
-art_bot;^Tilia\s+([xX×]|hybr\.)\s*'Zwarte Linde';Tilia hybr. europaea 'Zwarte Linde';insert species for cultivars;60;;;
-art_bot;^Prunus\s+domestica\s+'Incititia';Prunus domestica ssp. insisitia;cultivar to subspecies;60;;;
-art_bot;^Acer\s+pseudoplatanoides\b;Acer pseudoplatanus;could also be platanoides;90;;;
-art_bot;^Acer\s+freemanii\s*([xX×]|hybr\.)?\b;Acer hybr. freemanii;add hybrid marker;90;;;
-art_bot;^Aesculus\s+carnea;Aesculus hybr. carnea;add hybrid marker;90;;;
-art_bot;^Alnus\s+spaethii\b;Alnus hybr. spaethii;add hybrid marker;90;;;
-art_bot;^Aronia\s+prunifolia;Aronia hybr. prunifolia;add hybrid marker;90;;;
-art_bot;^Hamamelis\s'Brevipetala';Hamamelis hybr. 'Brevipetala';add hybrid marker;90;;;
-art_bot;^Laburnum\s+watereri;Laburnum hybr. watereri;add hybrid marker;90;;;
-art_bot;^Larix\s+eurolepis;Larix hybr. eurolepis;add hybrid marker;90;;;
-art_bot;^Populus\s+canadensis;Populus hybr. canadensis;add hybrid marker;90;;;
-art_bot;^Populus\s+canescens;Populus hybr. canescens;add hybrid marker;90;;;
-art_bot;^Populus\s+gileadensis;Populus hybr. gileadensis;add hybrid marker;90;;;
-art_bot;^Prunus\s+yedoensis;Prunus hybr. yedoensis;add hybrid marker;90;;;
-art_bot;^Pterocarya\s+rhederiana;Pterocarya hybr. rhederiana;add hybrid marker;90;;;
-art_bot;^Tilia\s+euchlora;Tilia hybr. euchlora;add hybrid marker;90;;;
-art_bot;^Tilia\s+europaea;Tilia hybr. europaea;add hybrid marker;90;;;
-art_bot;^Ulmus\s+';Ulmus hybr. ';add hybrid marker;90;;;
-art_bot;^Ulmus\s+Fiorente;Ulmus hybr. 'Fiorente';add hybrid marker;90;;;
-art_bot;^Hippophae;Hippophaë;add diacritic back;90;;;
-art_bot;^Amelanchier\s+grandiflora;Amelanchier hybr. grandiflora;add hybrid marker;90;;;
-art_bot;^Platanus\s+acerifolia;Platanus hybr. acerifolia;add hybrid marker;90;;;
-art_bot;^Platanus\s+hispanica;Platanus hybr. acerifolia;add hybrid marker;90;;;
-art_bot;^Platanus.+hispanica;Platanus hybr. acerifolia;latin synonym -> accepted;60;;;
-art_bot;^Magnolia\s+soulangeana;Magnolia hybr. soulangeana;add hybrid marker;90;;;
-art_bot;^Populus.+canadensis Hybride;Populus hybr. canadensis;latin normalization;100;;;
-art_bot;^Prunus\s+hillieri;Prunus hybr. hillieri;add hybrid marker;90;;;
-art_bot;^Quercus\s+turneri;Quercus hybr. turneri;add hybrid marker;90;;;
-art_bot;^Ulmus\s+Hybride;Ulmus hybr.;normalize hybrid marker;90;;;
+column;pattern;replacement;note;priority
+art_bot;^Ginkgo\s+sp\.$;Ginkgo biloba;monotypic extant;70
+art_bot;^Metasequoia\s+sp\.$;Metasequoia glyptostroboides;monotypic extant;70
+art_bot;^Larix\s+leptolepis\b;Larix kaempferi;latin synonym -> accepted;60
+art_bot;^Prunus\s+sachalinensis;Prunus sargentii;latin synonym;60
+art_bot;^Acer\+cissifolia;Acer cissifolium;latin spelling fix;100
+art_bot;^Acer\s+hycarnum;Acer hyrcanum;latin spelling fix;100
+art_bot;^Almus\s+inceana\b;Alnus incana;latin spelling fix;100
+art_bot;^Alnus\s+inokumea\b;Alnus inokumae;latin spelling fix;100
+art_bot;^Amelachier\b;Amelanchier;latin spelling fix;100
+art_bot;^Aronia\s+meloncarpia;Aronia melanocarpa;latin spelling fix;100
+art_bot;^Celtis\s+sinesis;Celtis sinensis;latin spelling fix;100
+art_bot;^Crytomeria\s+japonica\b;Cryptomeria japonica;latin spelling fix;60
+art_bot;^Davidia\s+involucrate;Davidia involucrata;latin spelling fix;100
+art_bot;^Davidia\s+involuncrata;Davidia involucrata;latin spelling fix;100
+art_bot;^Eleagnus\s+angustifolia\b;Elaeagnus angustifolia;latin spelling fix;60
+art_bot;^Forthergilla;Fothergilla;latin spelling fix;100
+art_bot;^Hamamelis\s'Brevitala';Hamamelis 'Brevipetala';latin spelling fix;100
+art_bot;^Hippophea;Hippophae;latin spelling fix;100
+art_bot;^Macluara;Maclura;latin spelling fix;100
+art_bot;^Malus\s+sieboldie;Malus sieboldii;latin spelling fix;100
+art_bot;^Physocarbus;Physocarpus;latin spelling fix;100
+art_bot;^Picea\s+punges;Picea pungens;latin spelling fix;100
+art_bot;^Populus\s+simonii\s+'Fastgiata';Populus simonii 'Fastigiata';latin spelling fix;60
+art_bot;^Prunus\s+ceracifera\b;Prunus cerasifera;latin spelling fix;100
+art_bot;^Prunus\s+mackii\b;Prunus maackii;latin spelling fix;100
+art_bot;^Pseudotsuga\s+menziezii;Pseudotsuga menziesii;latin spelling fix;100
+art_bot;^Sambuscus;Sambucus;latin spelling fix;100
+art_bot;^Tilia\s+plathyphyllos\b;Tilia platyphyllos;latin spelling fix;100
+art_bot;^Zanthozylum;Zanthoxylum;latin spelling fix;100
+art_bot;pensylvanica;pennsylvanica;latin spelling fix;100
+art_bot;^Craetagus crus-galli var. Inermis;Crataegus crus-galli var. inermis;latin spelling fix;100
+art_bot;^Ulmus\s+pumilla\s+arborea\b;Ulmus pumila var. arborea;latin rank word;60
+art_bot;^Laburnocytisus;+Laburnocytisus;latin normalization;100
+art_bot;^Aesculus\s+hippoc\.\s+;Aesculus hippocastanum ;latin expand abbrev.;90
+art_bot;^Betula\s+albo\s+sinensis;Betula albosinensis;latin compound word;95
+art_bot;^Magnolia\s*([xX×]|hybr\.)\s*Soulangiana\b;Magnolia hybr. soulangeana;latin case fix;60
+art_bot;^Sophora\s+japonica\s*\(Styphnolobium japonica\)$;Styphnolobium japonica;latin accepted genus;60
+art_bot;^Amelanchier\s+'Autumn Brilliance';Amelanchier hybr. grandiflora 'Autumn Brilliance';insert species for cultivars;60
+art_bot;^Prunus\s+'Italiensk sveske';Prunus domestica 'Italiensk sveske';insert species for cultivars;60
+art_bot;^Prunus\s+'Rivers Early Prolific';Prunus domestica 'Rivers Early Prolific';insert species for cultivars;60
+art_bot;^Pyrus\s+'Grev Moltke';Pyrus communis 'Grev Moltke';insert species for cultivars;60
+art_bot;^Ribes\s+'Jonkheer Van Tets';Ribes rubrum 'Jonkheer Van Tets';insert species for cultivars;60
+art_bot;^Ribes\s+'Rondom';Ribes rubrum 'Rondom';insert species for cultivars;60
+art_bot;^Ribes\s+'Rondom';Ribes rubrum 'Rondom';insert species for cultivars;60
+art_bot;^Tilia\s+([xX×]|hybr\.)\s*'Zwarte Linde';Tilia hybr. europaea 'Zwarte Linde';insert species for cultivars;60
+art_bot;^Prunus\s+domestica\s+'Incititia';Prunus domestica ssp. insisitia;cultivar to subspecies;60
+art_bot;^Acer\s+pseudoplatanoides\b;Acer pseudoplatanus;could also be platanoides;90
+art_bot;^Acer\s+freemanii\s*([xX×]|hybr\.)?\b;Acer hybr. freemanii;add hybrid marker;90
+art_bot;^Aesculus\s+carnea;Aesculus hybr. carnea;add hybrid marker;90
+art_bot;^Alnus\s+spaethii\b;Alnus hybr. spaethii;add hybrid marker;90
+art_bot;^Aronia\s+prunifolia;Aronia hybr. prunifolia;add hybrid marker;90
+art_bot;^Hamamelis\s'Brevipetala';Hamamelis hybr. 'Brevipetala';add hybrid marker;90
+art_bot;^Laburnum\s+watereri;Laburnum hybr. watereri;add hybrid marker;90
+art_bot;^Larix\s+eurolepis;Larix hybr. eurolepis;add hybrid marker;90
+art_bot;^Populus\s+canadensis;Populus hybr. canadensis;add hybrid marker;90
+art_bot;^Populus\s+canescens;Populus hybr. canescens;add hybrid marker;90
+art_bot;^Populus\s+gileadensis;Populus hybr. gileadensis;add hybrid marker;90
+art_bot;^Prunus\s+yedoensis;Prunus hybr. yedoensis;add hybrid marker;90
+art_bot;^Pterocarya\s+rhederiana;Pterocarya hybr. rhederiana;add hybrid marker;90
+art_bot;^Tilia\s+euchlora;Tilia hybr. euchlora;add hybrid marker;90
+art_bot;^Tilia\s+europaea;Tilia hybr. europaea;add hybrid marker;90
+art_bot;^Ulmus\s+';Ulmus hybr. ';add hybrid marker;90
+art_bot;^Ulmus\s+Fiorente;Ulmus hybr. 'Fiorente';add hybrid marker;90
+art_bot;^Hippophae;Hippophaë;add diacritic;90
+gattung;^Hippophae;Hippophaë;add diacritic;90
+art_bot;^Amelanchier\s+grandiflora;Amelanchier hybr. grandiflora;add hybrid marker;90
+art_bot;^Platanus\s+acerifolia;Platanus hybr. acerifolia;add hybrid marker;90
+art_bot;^Platanus\s+hispanica;Platanus hybr. acerifolia;add hybrid marker;90
+art_bot;^Platanus.+hispanica;Platanus hybr. acerifolia;latin normalization;60
+art_bot;^Magnolia\s+soulangeana;Magnolia hybr. soulangeana;add hybrid marker;90
+art_bot;^Populus.+canadensis Hybride;Populus hybr. canadensis;latin normalization;100
+art_bot;^Prunus\s+hillieri;Prunus hybr. hillieri;add hybrid marker;90
+art_bot;^Quercus\s+turneri;Quercus hybr. turneri;add hybrid marker;90
+art_bot;^Ulmus\s+Hybride;Ulmus hybr.;normalize hybrid marker;90
+art_bot;^Ulmus\s+Resista(?:\s+(?:\(R\)|®))?;Ulmus hybr.;normalize hybrid marker;90
+art_bot;(.*)\(R\)$;\1;latin normalization;100
+art_bot;^Sorbus\s+'Dodong';Sorbus commixta 'Dodong';insert species for cultivars;60
+art_bot;^Salix\s+'Tortuosa';Salix babylonica 'Tortuosa';insert species for cultivars;60
+art_bot;^Malus Hybriden in Sorten;Malus hybr.;latin normalization;100
+art_bot;^Prunus\s+'Trailblazer'$;Prunus cerasifera 'Trailblazer';insert species for cultivars;60
+art_bot;^Acer\s+'Norwegian Sunset';Acer hybr. 'Norwegian Sunset';add hybrid marker;90
+art_bot;^Laburnum\s+'Vossii';Laburnum hybr. watereri 'Vossii';insert species for cultivars;60
+art_bot;^Paulownia\s+'Shan\s+Tong';Paulownia hybr. 'Shan Tong' ;add hybrid marker;90
+art_bot;^Cydonia\s+'Cydora Robusta' ;Cydonia oblonga 'Cydora Robusta' ;insert species for cultivars;60
+art_bot;^Magnolia\s+'Susan';Magnolia hybr. 'Susan';add hybrid marker;90
+art_bot;^Magnolia\s+'Galaxy'$;Magnolia hybr. 'Galaxy' ;add hybrid marker;90
+art_bot;^Hamamelis in Sorten;Hamamelis sp.;latin normalization;100
+art_bot;^Ginkgo biloba, Ginkgo;Ginkgo biloba;latin normalization;100
+art_bot;^Sambucus spec.,\s+Holunder;Sambucus nigra;latin normalization;100
+art_bot;^Thuja\s+plicata\s+Excelsa;Thuja plicata 'Excelsa';latin normalization;100
+art_bot;^Salix\s+balsamifera\s+Mas;Salix balsamifera 'Mas';latin normalization;100
+art_bot;^Salix\s+caprea\s+Mas;Salix caprea 'Mas';latin normalization;100
+art_bot;^Fagus\s+sylvatica\s+Suentelensis;Fagus sylvatica var. suentelensis;add variety marker;90
+art_bot;^Tilia\s+intermedia;Tilia hybr. europaea;latin normalization;100
+art_bot;^Tilia\s+pallida 'Ruvo';Tilia hybr. europaea 'Pallida';latin normalization;100
+art_bot;^Unbekannt$;NA;latin normalization;100
+gattung;^Unbekannt$;NA;latin normalization;100
+art_bot;(.*)\(S\)$;\1;latin normalization;100
+art_bot;^Pinus\s+nigra\s+Fastigiata;Pinus nigra 'Fastigiata';latin normalization;100
+art_bot;^Acer\s+pectinatum\s+Forrestii$;Acer pectinatum ssp. forrestii;latin normalization;100
+art_bot;\s+subsp.\s+; ssp. ;latin normalization;100
+art_bot;^Amelanchier\s+lamarkii;Amelanchier lamarckii;latin spelling fix;100
+art_bot;^Amelanchier\s+lamarckii;Amelanchier hybr. lamarckii;add hybrid marker;90
+;;;;
