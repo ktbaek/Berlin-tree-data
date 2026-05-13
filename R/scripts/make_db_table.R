@@ -124,6 +124,7 @@ places_df |> write_csv('output/tables/places.csv', na = "")
 common <- clean_df |> select(art_bot, art_dtsch) |> distinct()
 
 common_by_taxon <- common |> 
+  filter(!is.na(art_bot)) |> 
   split_taxon_columns() |> 
   mutate(is_hybrid = ifelse(!is_hybrid & is.na(species), NA, is_hybrid)) |> 
   rename(common_name = art_dtsch) |> 
