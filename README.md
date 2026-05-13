@@ -3,7 +3,7 @@
 ## Project overview
 In this project I have built a clean, structured, and map-ready dataset of urban trees based on [public municipal data](https://www.berlin.de/sen/sbw/stadtdaten/geodaten-berlin/) from Berlin. 
 
-While the dataset is generally of very high quality, it still contains several inconsistencies, such as incorrect taxonomy, inconsistent naming, and duplicate records, which makes it difficult to use directly in applications. This repository implements a reproducible pipeline to clean, normalize, and enrich the data, and to prepare it for use in an interactive online map. 
+While the raw dataset is generally of very high quality, it still contains several inconsistencies, such as incorrect taxonomy, inconsistent naming, and duplicate records, which makes it difficult to use directly in applications. This repository implements a reproducible pipeline to clean, normalize, and enrich the data, and to prepare it for use in an interactive online map. 
 
 ### What the project does
 
