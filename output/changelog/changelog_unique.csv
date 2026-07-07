@@ -652,3 +652,16 @@ WRONG_CASE_LATIN,Pinus nigra ssp. Nigra,Pinus nigra ssp. nigra,fix casing latin 
 WRONG_CASE_LATIN,Prunus Spinosa,Prunus spinosa,fix casing latin name,209
 WRONG_CASE_LATIN,Prunus domestica 'Mirabelle Von Nancy',Prunus domestica 'Mirabelle von Nancy',fix casing latin name,74
 WRONG_CASE_LATIN,Ptelea Trifoliata,Ptelea trifoliata,fix casing latin name,11
+YEAR_RANGE,11111,NA,year outside allowed range,1
+YEAR_RANGE,13,NA,year outside allowed range,2
+YEAR_RANGE,15,NA,year outside allowed range,8
+YEAR_RANGE,19383,NA,year outside allowed range,1
+YEAR_RANGE,19853333314434711552,NA,year outside allowed range,1
+YEAR_RANGE,19901,NA,year outside allowed range,2
+YEAR_RANGE,19911,NA,year outside allowed range,1
+YEAR_RANGE,2,NA,year outside allowed range,6
+YEAR_RANGE,20,NA,year outside allowed range,1
+YEAR_RANGE,200,NA,year outside allowed range,2
+YEAR_RANGE,2000111,NA,year outside allowed range,1
+YEAR_RANGE,32,NA,year outside allowed range,1
+YEAR_RANGE,8,NA,year outside allowed range,1

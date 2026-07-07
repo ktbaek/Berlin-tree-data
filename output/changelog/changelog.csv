@@ -1,4 +1,32 @@
 uuid,code,column,value_from,value_to,ruleset,message,severity
+00008100_001afb2b,YEAR_RANGE,pflanzjahr,19853333314434711552,NA,NA,year outside allowed range,NA
+00008100_001af985,YEAR_RANGE,pflanzjahr,19911,NA,NA,year outside allowed range,NA
+00008100_003952ca,YEAR_RANGE,pflanzjahr,13,NA,NA,year outside allowed range,NA
+00008100_001afbc6,YEAR_RANGE,pflanzjahr,8,NA,NA,year outside allowed range,NA
+00008100_003982ea,YEAR_RANGE,pflanzjahr,20,NA,NA,year outside allowed range,NA
+00008100_000c8f89,YEAR_RANGE,pflanzjahr,32,NA,NA,year outside allowed range,NA
+00008100_0038344a,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383449,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383445,YEAR_RANGE,pflanzjahr,13,NA,NA,year outside allowed range,NA
+00008100_0038344b,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383447,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383443,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_0038344c,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383442,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_00383448,YEAR_RANGE,pflanzjahr,15,NA,NA,year outside allowed range,NA
+00008100_003700a2,YEAR_RANGE,pflanzjahr,19901,NA,NA,year outside allowed range,NA
+00008100_002a3042,YEAR_RANGE,pflanzjahr,2000111,NA,NA,year outside allowed range,NA
+00008100_0036ff94,YEAR_RANGE,pflanzjahr,19901,NA,NA,year outside allowed range,NA
+00008100_00378299,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_0037829e,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_0037829d,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_00378297,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_0037829a,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_00378298,YEAR_RANGE,pflanzjahr,2,NA,NA,year outside allowed range,NA
+00008100_003073c4,YEAR_RANGE,pflanzjahr,19383,NA,NA,year outside allowed range,NA
+00008100_00198307,YEAR_RANGE,pflanzjahr,200,NA,NA,year outside allowed range,NA
+00008100_00216354,YEAR_RANGE,pflanzjahr,11111,NA,NA,year outside allowed range,NA
+00008100_00377746,YEAR_RANGE,pflanzjahr,200,NA,NA,year outside allowed range,NA
 00008100_0010a798,APPLIED_REGEX_RULE,art_bot,Crataegus x lavallei 'Carrierei',Crataegus hybr. lavallei 'Carrierei',markers,normalize hybrid marker,NA
 00008100_0010d0dd,APPLIED_REGEX_RULE,art_bot,Crataegus x lavallei 'Carrierei',Crataegus hybr. lavallei 'Carrierei',markers,normalize hybrid marker,NA
 00008100_001148e3,APPLIED_REGEX_RULE,art_bot,Crataegus x lavallei 'Carrierei',Crataegus hybr. lavallei 'Carrierei',markers,normalize hybrid marker,NA

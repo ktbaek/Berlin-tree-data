@@ -10,4 +10,5 @@ APPLIED_REGEX_RULE,normalize cultivar style,225
 APPLIED_REGEX_RULE,add diacritic,108
 APPLIED_REGEX_RULE,fix species name,59
 APPLIED_REGEX_RULE,latin spelling fix,29
+YEAR_RANGE,year outside allowed range,28
 APPLIED_REGEX_RULE,add variety marker,2

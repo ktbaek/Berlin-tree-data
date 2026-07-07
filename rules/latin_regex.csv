@@ -102,4 +102,4 @@ art_bot;^Acer\s+pectinatum\s+Forrestii$;Acer pectinatum ssp. forrestii;latin nor
 art_bot;\s+subsp.\s+; ssp. ;latin normalization;100
 art_bot;^Amelanchier\s+lamarkii;Amelanchier lamarckii;latin spelling fix;100
 art_bot;^Amelanchier\s+lamarckii;Amelanchier hybr. lamarckii;add hybrid marker;90
-;;;;
+art_bot;^Fagus/s+sylvatica\s+'Aspleniifolia';Fagus sylvatica 'Asplenifolia';latin spelling fix;100
