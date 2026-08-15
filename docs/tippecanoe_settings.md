@@ -11,8 +11,10 @@ tippecanoe \
 --base-zoom=12 \
 --drop-densest-as-needed \
 --maximum-tile-features=50000 \
+--exclude=id \
 --buffer=8 \
 --no-tile-stats \
 --force \
-trees_resolved.geojson
+trees_resolved.geojson \
+> tippecanoe_stdout.log 2> tippecanoe_stderr.log
 ```

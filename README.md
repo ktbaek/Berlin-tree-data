@@ -52,10 +52,17 @@ The contents of this repository (data cleaning code, validation rules, and corre
 - Normalize cultivar quotes (e.g. `"` to `'`)
 - Fix mistakes in scientific names (e.g. spelling, casing, diacritics, missing species epithet in cultivars, missing hybrid designations) according to [these](rules/latin_regex.csv) and [these](rules/latin_regex_malus.csv) rules
 
-### Normalization and mapping in postgreSQL
+### Normalization in postgreSQL
 - Separate scientific names into taxonomic components
 - Build a normalized taxonomy (orders → families → genera → species → infraspecies) and enforce valid taxonomic structure through constraints
 - Retain a single record per location based on data completeness (e.g. presence of taxon, planting year)
+
+### Standardization of German common names
+- Standardize common names according to [FloraWeb](https://floraweb.de) or other sources
+- Implement common name resolution with fallback to parent taxon name when needed
+- Define display rules (e.g. when to include cultivar names)
+
+Fixing scientific names and German common names is work in progress.
 
 All changes to the raw dataset are listed in the [changelog](output/changelog).
 

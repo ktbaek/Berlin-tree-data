@@ -16,14 +16,14 @@ radius_df <- map_df |>
   arrange(planting_year) |> 
   mutate(radius = round(calc_radius(year = planting_year, current_year = this_year, r0 = 2.2, a0 = 25, k = 0.7), 2)) 
 
-# add truncated uuid as id
+# add truncated gisid as id
 trees_df <- map_df |> mutate(id = str_sub(gisid, start = -8, end = -1))
 if (length(unique(map_df$gisid)) != length(unique(trees_df$id))) cli::cli_alert_warning("IDs not unique")
 trees_df$gisid <- NULL
 
 trees_df <- trees_df |> 
   arrange(desc(is.na(taxon_id)), planting_year, id) |> 
-  rename(pyr = planting_year, tid = taxon_id) |> 
+  rename(pyr = planting_year, tid = taxon_id, nr = tree_number) |> 
   mutate(lon = round(lon, 6), lat = round(lat, 6))
 
 source("R/scripts/calculate_counts.R")
@@ -47,7 +47,6 @@ trees_for_tiles <- trees_df |>
     draw_order = as.integer(round(draw_order, 1) * 10)
   )
   
-
 trees_for_tiles_sf <- sf::st_as_sf(trees_for_tiles, coords = c("lon", "lat"), crs = 4326)
 st_write(trees_for_tiles_sf, "output/datasets/trees_resolved.geojson", driver = "GeoJSON", delete_dsn = TRUE)
 

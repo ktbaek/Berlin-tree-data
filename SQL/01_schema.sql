@@ -44,9 +44,7 @@ create table if not exists taxon_common_names (
     common_name_id serial primary key,
     taxon_id integer not null references taxa(taxon_id) ON DELETE CASCADE,
     common_name TEXT NOT NULL,
-
-    -- avoid duplicates per taxon
-    UNIQUE (taxon_id, common_name),
+    primary_name BOOLEAN DEFAULT FALSE NOT NULL
 
     -- basic sanity
     CHECK (common_name <> '')

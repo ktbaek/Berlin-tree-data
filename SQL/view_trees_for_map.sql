@@ -17,6 +17,7 @@ WITH ranked AS (
 
 SELECT
     t.gisid,
+    tn.tree_number,
     t.taxon_id,
     t.lat,
     t.lon,
@@ -25,8 +26,6 @@ SELECT
 
 FROM ranked t
 
-left join places p using (place_id)
-left join districts d using (district_id)
+LEFT JOIN tree_numbers tn USING (gisid)
 
-WHERE (t.is_duplicate_location = FALSE OR t.rn = 1)
-AND d.district_name IN ('Neukölln');
+WHERE (t.is_duplicate_location = FALSE OR t.rn = 1);

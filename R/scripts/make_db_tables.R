@@ -65,6 +65,12 @@ trees_df <- harmonized_df |>
   
 trees_df |> write_csv('output/tables/trees_2026.csv', na = "")
 
+clean_df |> 
+  select(gisid, standortnr) |> 
+  rename(tree_number = standortnr) |> 
+  #mutate(tree_number = str_remove(tree_number, "^0+")) |> 
+  write_csv('output/tables/tree_numbers.csv', na = "")
+
 # generate family table
 family_df <- rules$taxonomy |> 
   select(family, order) |> 

@@ -1,6 +1,6 @@
-CREATE VIEW taxon_primary_common_names AS
-SELECT
+create or replace VIEW taxon_primary_common_names AS
+SELECT DISTINCT ON (taxon_id)
     taxon_id,
-    MIN(common_name) AS common_name
+    common_name
 FROM taxon_common_names
-GROUP BY taxon_id;
+ORDER BY taxon_id, primary_name DESC, common_name ASC;
